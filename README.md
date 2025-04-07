@@ -41,16 +41,17 @@ python manage.py migrate
 python manage.py runserver
 
 
-### 🔹**Frontend (ReactJS)**
+
+### 🔹 Frontend (ReactJS)
 cd frontend
 npm install
 npm start
 
-**Create a .env file in your Django backend/ directory:**
+### Create a .env file in your Django backend/ directory:
 AI_API_KEY=your_api_key_here
 AI_API_BASE=https://api.provider.ai/v1  # Adjust if using a different provider
 
-**Project Structure**
+### Project Structure
 project-root/
 │
 ├── backend/
