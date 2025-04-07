@@ -2,4 +2,13 @@ from django.http import JsonResponse
 
 
 def index(request):
-    return JsonResponse({'hello':"welcome"})
+    data = {
+    'message': 'Hello from Django!',
+    'status': 'success',
+    'items': [
+        {'id': 1, 'name': 'Item 1'},
+        {'id': 2, 'name': 'Item 2'},
+        {'id': 3, 'name': 'Item 3'},
+    ]
+    }
+    return JsonResponse(data)
