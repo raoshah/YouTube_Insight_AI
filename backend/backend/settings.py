@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-jcn(2dz#b@pte&u&$uu1b@48jgoyei5=@^m7_95-85c%e+j%^z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['aisideback.vercel.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
