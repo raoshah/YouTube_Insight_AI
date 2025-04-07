@@ -68,7 +68,7 @@ project-root/
 └── README.md
 
 👨‍💻 Author
-Made with ❤️ by [Shah Rukh Rao]
+❤️ by [Shah Rukh Rao]
 
 
 
