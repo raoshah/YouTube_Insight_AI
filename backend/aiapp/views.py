@@ -1,9 +1,11 @@
 from django.http import JsonResponse
+from .transcript import transcript
 
 
 def index(request):
+    result = transcript()
     data = {
-    'message': 'Hello from Django!',
+    'message': result,
     'status': 'success',
     'items': [
         {'id': 1, 'name': 'Item 1'},
